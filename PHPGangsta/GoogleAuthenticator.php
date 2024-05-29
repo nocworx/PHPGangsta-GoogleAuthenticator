@@ -110,7 +110,8 @@ class PHPGangsta_GoogleAuthenticator
         }
 
         return sprintf('https://api.qrserver.com/v1/create-qr-code/?data=%s&size=%dx%d&ecc=%s',
-            $urlencoded, $width, $height, $level);    }
+            $urlencoded, $width, $height, $level);    
+    }
 
     /**
      * Check if the code is correct. This will accept codes starting from $discrepancy*30sec ago to $discrepancy*30sec from now.
