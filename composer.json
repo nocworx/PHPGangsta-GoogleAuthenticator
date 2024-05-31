@@ -1,7 +1,10 @@
 {
-    "name": "phpgangsta/googleauthenticator",
+    "name": "nocworx/phpgangsta-googleauthenticator",
+    "replace": {
+        "phpgangsta/googleauthenticator": "1.0.1"
+    },
     "description": "Google Authenticator 2-factor authentication",
-    "version": "1.0.0",
+    "version": "1.0",
     "type": "library",
     "keywords": ["GoogleAuthenticator", "TOTP", "rfc6238"],
     "license": "BSD-4-Clause",
@@ -18,13 +21,9 @@
         "issues": "https://github.com/PHPGangsta/GoogleAuthenticator/issues"
     },
     "require": {
-        "php": ">=5.3"
+        "php": "^8"
     },
-	"autoload": {
-		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
-	}
+    "autoload": {
+        "classmap": ["PHPGangsta/GoogleAuthenticator.php"]
+    }
 }
-
-
-
-
