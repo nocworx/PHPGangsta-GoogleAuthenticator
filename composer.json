@@ -23,11 +23,7 @@
     "require": {
         "php": "^8"
     },
-	"autoload": {
-		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
-	}
+    "autoload": {
+        "classmap": ["PHPGangsta/GoogleAuthenticator.php"]
+    }
 }
-
-
-
-
