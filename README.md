@@ -7,6 +7,22 @@ Google Authenticator PHP class
 
 [![Build Status](https://travis-ci.org/PHPGangsta/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/PHPGangsta/GoogleAuthenticator)
 
+NocWorx Notes:
+Specifying the configuration of the package in the root composer.json file in the following manner will allow you to bypass stability restraints and select a specific version on require.
+```json
+    { "type": "package",
+      "package": {
+        "name": "nocworx/phpgangsta-googleauthenticator",
+        "version": "1.0.1", // this is the TAG
+        "source": {
+          "url": "https://github.com/nocworx/phpgangsta-googleauthenticator",
+          "type": "git",
+          "reference": "nocworx-1.0.1" // this is the BRANCH
+        }
+      }
+    }
+```
+
 This PHP class can be used to interact with the Google Authenticator mobile app for 2-factor-authentication. This class
 can generate secrets, generate codes, validate codes and present a QR-Code for scanning the secret. It implements TOTP 
 according to [RFC6238](https://tools.ietf.org/html/rfc6238)
