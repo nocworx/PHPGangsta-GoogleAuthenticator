@@ -1,7 +1,7 @@
 {
     "name": "nocworx/phpgangsta-googleauthenticator",
     "replace": {
-        "phpgangsta/googleauthenticator": "^1.0"
+        "phpgangsta/googleauthenticator": "1.0.1"
     },
     "description": "Google Authenticator 2-factor authentication",
     "type": "library",
